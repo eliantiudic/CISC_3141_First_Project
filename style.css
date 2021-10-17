@@ -1,0 +1,65 @@
+
+/*****Global******/
+a{
+    text-decoration: none;
+    color: #124687;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/****************/
+
+
+
+/*****nav bar****/
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+}
+
+.nav-menu-flexrow{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: rgb(8, 88, 179);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: white;
+}
+
+.nav .logo a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6rem;
+}
+
+/***************/
+
+/****header*****/
+
+/***************/
