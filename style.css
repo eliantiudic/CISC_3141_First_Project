@@ -35,7 +35,7 @@ ul {
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
+    padding: 1.2rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-family: 'Kanit', sans-serif;
@@ -61,5 +61,20 @@ ul {
 /***************/
 
 /****header*****/
+.myimage{
+    display: block; 
+    margin-left: 45%;
+    margin-right: 50%;
+}
 
+.me{
+    block-size: 12rem;
+    border-radius: 50%;
+}
+
+.center{
+    padding: 1rem;
+    background-color: silver;
+    text-align: center;
+}
 /***************/
