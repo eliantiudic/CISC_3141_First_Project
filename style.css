@@ -62,19 +62,31 @@ ul {
 
 /****header*****/
 .myimage{
-    display: block; 
-    margin-left: 45%;
-    margin-right: 50%;
+    display: flexbox; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .me{
+    margin-top: 1.5rem;
     block-size: 12rem;
     border-radius: 50%;
+    border-style:solid;
+    border-color: white;
+}
+.me:hover{
+    border-color: rgb(8, 88, 179);
 }
 
 .center{
+    border-top:solid;
+    border-bottom: solid;
+    border-width: .1rem;
+    border-color:gainsboro;
     padding: 1rem;
-    background-color: silver;
+    background-color:whitesmoke;
     text-align: center;
 }
+
+
 /***************/
