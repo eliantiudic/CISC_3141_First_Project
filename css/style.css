@@ -75,7 +75,7 @@ ul {
     border-color: white;
 }
 .me:hover{
-    border-color: rgb(8, 88, 179);
+    border-color: #124687;
 }
 
 .center{
@@ -94,6 +94,8 @@ ul {
 /****Main Content****/
 
 .main-content{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,6 +105,16 @@ ul {
 .about-me{
     width: 30%;
     margin-right:3rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.social-contacts{
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+}
+
+.social-links:hover{
+    color: rgb(8, 88, 179);
 }
 
 /********************/
