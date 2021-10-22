@@ -90,3 +90,19 @@ ul {
 
 
 /***************/
+
+/****Main Content****/
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.about-me{
+    width: 30%;
+    margin-right:3rem;
+}
+
+/********************/
